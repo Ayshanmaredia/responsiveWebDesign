@@ -1,0 +1,1251 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1350px;
+    margin: auto;
+}
+
+/*<--------------------------- header --------------------------->*/
+
+header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1350px;
+    margin: auto;
+}
+
+header .logo,
+.container .nav {
+    display: inline;
+}
+
+header .logo a {
+    font-size: 34px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+header .logo a span {
+    color: #C11325;
+}
+
+.container .nav ul {
+    float: right;
+}
+
+.container .nav ul li {
+    display: inline-block;
+}
+
+.container .nav ul li a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.container .nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.container .nav ul li a.active {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*<--------------------------- Signup Section --------------------------->*/
+
+
+.signup {
+    margin-top: 20px;
+    background-color: #222;
+}
+
+.fsignup .signup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fsignup .signup .cbox {
+    flex: 0 0 50%;
+    max-width: 50%;
+    max-width: 500px;
+}
+
+.fsignup .signup .cbox .img1 img {
+    width: 80%;
+    padding: 30px;
+    margin-left: 70px;
+}
+
+.fsignup .signup .cbox h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fsignup .signup .cbox.one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../images/workout.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fsignup .signup .cbox.one .form {
+    max-width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.fsignup .signup .cbox.one .form h2 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-bottom: 3px solid #C11325;
+    margin-bottom: 27px;
+    padding: 13px 0;
+}
+
+.fsignup .signup .cbox.one .form .textbox {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #C11325;
+}
+
+.fsignup .signup .cbox.one .form .textbox i {
+    color: #fff;
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.fsignup .signup .cbox.one .form .textbox input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    width: 80px;
+    overflow: hidden;
+    margin: 0 10px;
+    width: 80%;
+}
+
+.fsignup .signup .cbox.one .form .sbtn {
+    width: 100%;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #C11325;
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    margin: 12px 0;
+    transition: 0.6s ease;
+}
+
+.fsignup .signup .cbox.one .form .sbtn:hover {
+    background-color: #C11325;
+    color: #000;
+}
+
+
+/*<--------------------------- Home Section --------------------------->*/
+
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.home-title h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home-title h1 span {
+    color: #C11325;
+}
+
+.joinus-btn {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.joinus-btn .btn {
+    letter-spacing: 0.1em;
+    border: 1px solid #fff;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.6s ease;
+}
+
+.joinus-btn .btn:hover {
+    background-color: #fff;
+    color: #C11325;
+}
+
+.hwrapper {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.imageslider {
+    background-color: #222;
+    padding: 15px 0px;
+}
+
+.imageslider h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.imageslider .slider {
+    display: inline-block;
+    width: 60%;
+    height: 400px;
+    margin: 17px 0px;
+    background-image: url('../images/workout.jpg');
+    background-size: 100% 100%;
+    border: 2px solid #C11325;
+    animation: sliders 20s infinite linear;
+}
+
+@keyframes sliders {
+    0% {
+        background-image: url('../images/workout.jpg');
+    }
+
+    25% {
+        background-image: url('../images/cardio.jpg');
+    }
+
+    50% {
+        background-image: url('../images/slider1.jpg');
+    }
+
+    75% {
+        background-image: url('../images/slider2.jpg');
+    }
+
+}
+
+
+/*<--------------------------- Facilities Section --------------------------->*/
+
+
+.facility {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/facility.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.facility-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.facility-title h1 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.facility-text p {
+    font-size: 20px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.facility-title h1 span,
+.facility-text p span {
+    color: #C11325;
+}
+
+.fwrapper {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.fwrapper-top {
+    text-align: center;
+    color: #000;
+}
+
+.facility-main .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.facility-main .content .box {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+    max-width: 450px;
+}
+
+.facility-main .content .box .inner {
+    background-color: #222;
+    padding: 15px;
+}
+
+.facility-main .content .box:nth-child(2) .inner {
+    background-color: #C11325;
+}
+
+.facility-main .content .box .img img {
+    width: 100%;
+}
+
+.facility-main .content .box .inner .inner-text {
+    padding: 20px;
+}
+
+.facility-main .content .box .inner .inner-text h4 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.facility-main .content .box .inner .inner-text p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.facility-main .inner-btn {
+    display: inline-block;
+}
+
+.facility-main .inner-btn input {
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.facility-main .inner-btn input[type=button] {
+    padding: 7px;
+    font-size: 16px;
+}
+
+.facility-main .inner-btn input:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+
+/*<--------------------------- Schedule Section --------------------------->*/
+
+
+.schedule {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/schedule.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.schedule-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.schedule-title h1 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.schedule-text p {
+    font-size: 20px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.schedule-title h1 span,
+.schedule-text p span {
+    color: #C11325;
+}
+
+.schedule-main {
+    padding: 25px 0px;
+}
+
+.schedule-main .content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C1C5C1;
+    justify-content: center;
+}
+
+.schedule-main .content .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+    max-width: 600px;
+}
+
+.schedule-main .content .text h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #222;
+    padding: 0px 0px 20px;
+    text-align: center;
+}
+
+.schedule-main .content .text img {
+    width: 450px;
+    height: 450px;
+    transform: rotateY(180deg);
+}
+
+.schedule-main .content .timing {
+    margin: auto 0px;
+}
+
+.schedule-main .content .timing table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-main .content .timing .table td {
+    border: 1px solid #C1C5C1;
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    color: #222;
+}
+
+.schedule-main .content .timing .table tr td.day {
+    color: #fff;
+    border-color: transparent;
+}
+
+.schedule-main .content .timing .table tr:nth-child(odd) td.day {
+    background-color: #C11325;
+}
+
+.schedule-main .content .timing .table tr:nth-child(even) td.day {
+    background-color: #222;
+}
+
+
+/*<--------------------------- Price Section --------------------------->*/
+
+
+.price {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/price.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.price-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.price-title h1 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price-text p {
+    font-size: 20px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.price-title h1 span,
+.price-text p span {
+    color: #C11325;
+}
+
+.price-main {
+    margin-top: 25px;
+}
+
+.price-main .price-table {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.price-main .price-table .column {
+    flex: 0 0 33.33%;
+    flex: 33.33%;
+    padding: 10px;
+    max-width: 400px;
+    box-sizing: border-box;
+    transition: 0.6s ease;
+}
+
+.price-main .price-table .column:hover {
+    background-color: aqua;
+    color: #000;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    transform: scale(0.8);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.price-main .price-table .column .table {
+    background-color: #222;
+    color: #fff;
+    position: relative;
+    padding: 40px 20px;
+    overflow: hidden;
+}
+
+.price-main .price-table .column .table .pop {
+    background-color: #C11325;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 18px;
+    right: -46px;
+    padding: 7px 60px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price-main .price-table .column:nth-child(even) .table {
+    background-color: #222;
+}
+
+.price-main .price-table .column:nth-child(odd) .table {
+    background-color: #C11325;
+}
+
+.price-main .price-table .column .table h2 {
+    text-transform: uppercase;
+}
+
+.price-main .price-table .column .table ul {
+    margin: 0;
+    padding: 0;
+}
+
+.price-main .price-table .column .table ul li {
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.price-main .price-table .column .table .cost {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.price-main .price-table .column .table .cost span {
+    display: block;
+    font-size: 14px;
+}
+
+.price-main .price-table .column .table a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.6s ease;
+}
+
+.price-main .price-table .column:nth-child(odd) .table a:hover {
+    background-color: #222;
+    color: #C1C5C1;
+}
+
+.price-main .price-table .column:nth-child(even) .table a:hover {
+    background-color: #C11325;
+    color: #222;
+}
+
+
+/*<--------------------------- About Section --------------------------->*/
+
+
+.about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/about.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.about-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.about-title h1 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    font-size: 20px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.about-title h1 span,
+.about-text p span {
+    color: #C11325;
+}
+
+.about-main {
+    margin-top: 25px;
+}
+
+.about-main .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #222;
+    align-items: center;
+}
+
+.about-main .content .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+    max-width: 500px;
+}
+
+.about-main .content .box .inner .inner-text {
+    text-align: center;
+}
+
+.about-main .content .box .inner .inner-text h4 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.about-main .content .box .inner .inner-text p {
+    padding: 7px 0px;
+    color: #C1C5C1;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.about-main .content .box .inner .inner-text input {
+    text-align: center;
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.about-main .content .box .inner .inner-text input[type=button] {
+    padding: 7px;
+    font-size: 16px;
+}
+
+.about-main .content .box .inner .inner-text input:hover {
+    background-color: #C11325;
+    color: #fff;
+}
+
+.about-main .content .box .inner .inner-text .progress {
+    width: 100%;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.about-main .content .box .inner .inner-text .progress .skills {
+    padding: 10px 0px;
+}
+
+.about-main .content .box .inner .inner-text .skills.barone {
+    width: 83%;
+    background-color: #FF3232;
+    border-radius: 10px;
+}
+
+.about-main .content .box .inner .inner-text .skills.bartwo {
+    width: 94%;
+    background-color: #FF3232;
+    border-radius: 10px;
+}
+
+.about-main .content .box .inner .inner-text .skills.barthree {
+    width: 89%;
+    background-color: #FF3232;
+    border-radius: 10px;
+}
+
+.about-main .content .box .inner .inner-text .skills.barfour {
+    width: 75%;
+    background-color: #FF3232;
+    border-radius: 10px;
+}
+
+.about-main .content .box .inner .inner-text .skills.barfive {
+    width: 75%;
+    background-color: #FF3232;
+    border-radius: 10px;
+}
+
+
+/*<--------------------------- contact us Section --------------------------->*/
+
+
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/workout.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.contact-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.contact-title h1 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-text p {
+    font-size: 20px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.contact-title h1 span,
+.contact-text p span {
+    color: #C11325;
+}
+
+.find {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.find .img1 img {
+    width: 80%;
+    padding: 30px;
+    margin-left: 70px;
+}
+
+.find.one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../images/workout.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.find.one .form {
+    max-width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.find.one .form h2 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-bottom: 3px solid #C11325;
+    margin-bottom: 27px;
+    padding: 13px 0;
+}
+
+.find.one .form .textbox {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #C11325;
+}
+
+.find.one .form .textbox i {
+    color: #fff;
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.find.one .form .textbox input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    width: 80px;
+    overflow: hidden;
+    margin: 0 10px;
+    width: 80%;
+}
+
+.find.one .form input[type=button] {
+    width: 100%;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #C11325;
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    margin: 12px 0;
+    transition: 0.6s ease;
+    margin-bottom: 20px;
+}
+
+.find.one .form .sbtn:hover {
+    background-color: #C11325;
+    color: #000;
+}
+
+
+/*<--------------------------- Footer Section --------------------------->*/
+
+
+.footer {
+    margin-top: 25px;
+    background-color: #222;
+    display: block;
+}
+
+.footer .inner-footer {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+
+.footer .inner-footer .footer-items {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.footer .inner-footer .footer-items .border {
+    height: 2px;
+    width: 50px;
+    background: #C11325;
+}
+
+.footer .inner-footer .footer-items h2 {
+    margin: 10px 0;
+    color: #C1C5C1;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.footer .inner-footer .footer-items ul {
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.footer .inner-footer .footer-items ul li {
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+.footer .inner-footer .footer-items ul a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer .inner-footer .footer-items ul a:hover {
+    cursor: pointer;
+    color: #C11325;
+}
+
+.footer .inner-footer .footer-items ul li i {
+    margin-right: 20px;
+}
+
+.footer .social-media {
+    width: 100%;
+    color: #fff;
+}
+
+.footer .social-media a {
+    text-decoration: none;
+}
+
+.footer .social-media i {
+    line-height: 15px;
+    width: 13px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.footer .footer-bottom {
+    padding: 10px;
+    background-color: #C1C1C1;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*<--------------------------- Media Query Section (Responsive) --------------------------->*/
+
+@media only screen and (max-width:1024px) {
+
+    header .logo,
+    .container .nav {
+        display: block;
+    }
+
+    header .logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    header .logo a {
+        font-size: 30px;
+    }
+
+    .container .nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    .container .nav ul li a:hover,
+    .container .nav ul li a.active {
+        background: none;
+        color: #C11325;
+    }
+
+    .fsignup .signup .cbox .img1 img {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .home-title h1 {
+        font-size: 27px;
+    }
+
+    .imageslider .slider {
+        width: 75%;
+        height: 400px;
+    }
+
+    .facility-title h1,
+    .schedule-title h1,
+    .price-title h1,
+    .about-title h1,
+    .contact-title h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .joinus-btn {
+        top: 60%;
+    }
+
+    .facility-text p,
+    .schedule-text p,
+    .price-text p,
+    .about-text p {
+        top: 55%;
+        text-align: center;
+    }
+
+    .facility-main .content .box {
+        flex: 50%;
+    }
+
+    .schedule-main .content .box {
+        flex: 50%;
+        max-width: 80%;
+    }
+
+    .price-main .price-table .column {
+        flex: 50%;
+    }
+
+    .footer .inner-footer .footer-items {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+
+    header {
+        position: static;
+        margin: 0;
+    }
+
+    header .logo {
+        border-bottom: 2px dashed #FFFAF0;
+    }
+
+    header .logo,
+    .container .nav ul {
+        margin-bottom: 0;
+        background-color: #222;
+
+    }
+
+    header .logo a {
+        font-size: 1.8em;
+
+    }
+
+    .container .nav ul {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .nav ul li {
+        padding: .2em 0;
+        border-bottom: 1px solid #37474F;
+    }
+
+    .container .nav ul li a {
+        font-size: 1.3em;
+    }
+
+/*
+    .fsignup .signup .cbox.image .img1 {
+        display: none;
+    }
+*/
+
+    .fsignup .signup .cbox {
+        flex: 100%;
+        max-width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .home,
+    .facility,
+    .schedule,
+    .price,
+    .about,
+    .contact {
+        height: 60vh;
+    }
+
+    .home-title h1 {
+        font-size: 1.6em;
+    }
+
+    .home-title,
+    .facility-title,
+    .schedule-title,
+    .price-title,
+    .about-title,
+    .contact-title {
+        top: 55%;
+    }
+
+    .facility-title h1,
+    .schedule-title h1,
+    .price-title h1,
+    .about-title h1,
+    .contact-title h1 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .joinus-btn {
+        top: 67%;
+    }
+
+    .facility-text p,
+    .schedule-text p,
+    .price-text p,
+    .about-text p {
+        top: 60%;
+        text-align: center;
+        ;
+    }
+
+    .facility-main .content .box {
+        flex: 100%;
+        max-width: 500px;
+    }
+
+    .schedule-main .content .box {
+        flex: 100%;
+        max-width: 90%;
+    }
+
+    .price-main .price-table .column {
+        flex: 100%;
+    }
+
+    .price-main .price-table .column:hover {
+        background: none;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .about-main .content .box {
+        flex: 100%;
+        max-width: 90%;
+    }
+
+
+    .footer .inner-footer .footer-items {
+        flex: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer .inner-footer .footer-items h2 {
+        margin: 0;
+    }
+
+    .footer .inner-footer .footer-items .border {
+        display: inline-block;
+    }
+}
